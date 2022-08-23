@@ -1,0 +1,20 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav#highScore {
+    text-align:center;
+}
+.quiz {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}

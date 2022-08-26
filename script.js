@@ -197,6 +197,7 @@ function startTimer() {
     if(secondsLeft === 0) {
       // Stops execution of action at set interval
       clearInterval(timerInterval);
+      alert("GAME OVER!");
     }
 
   }, 1000);

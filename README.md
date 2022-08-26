@@ -8,7 +8,8 @@ Lots of assistance from Julian https://github.com/juliandanciu
 
 ## Links
 
-
+git@github.com:pholcomb91/Study-javalooza.git
+https://pholcomb91.github.io/Study-javalooza/
 
 ## Mock
 

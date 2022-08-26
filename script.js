@@ -59,6 +59,7 @@ function handle(event) {
         responseEl.innerHTML="Correct!";
         console.log(responseEl);
         document.getElementById("questionResult").appendChild(responseEl);
+        stopTimer();
 
     } else {
         var responseEl=document.createElement("p");
@@ -67,10 +68,10 @@ function handle(event) {
         console.log(responseEl);
         document.getElementById("questionResult").appendChild(responseEl);
         secondsLeft=secondsLeft-10;
-
+        stopTimer();
     }
 
-    console.log(buttonData)
+    
 
     if (buttonData == "q1") {
       //repopulate with q2
@@ -199,6 +200,10 @@ function startTimer() {
     }
 
   }, 1000);
+}
+function stopTimer () {
+  clearInterval(secondsLeft);
+  return secondsLeft;
 }
 
 
